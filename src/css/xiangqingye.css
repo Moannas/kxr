@@ -1,0 +1,445 @@
+/* 主体部分 */
+#main{
+    width: 100%;
+    overflow: hidden;
+}
+.main-box{
+    width: 100%;
+    padding-top: 90px;
+    margin: 0 auto;
+}
+/* 导航栏 */
+.navgi{
+    margin: 10px 0;
+    padding-left: 15px;
+    height: 38px;
+    line-height: 38px;
+    border: 1px solid #ddd;
+}
+.navgi a{
+    color: #5d5d5d;
+    padding: 0 8px;
+}
+.tishi{
+    margin-left: 90px;
+}
+.navgi img{
+    margin-left: 20px;
+}
+
+.show{
+    width: 100%;
+    overflow: hidden;
+}
+.show-left{
+    width: 250px;
+}
+.prolistT{
+    width: 250px;
+    height: 248px;
+    border: 1px solid #d7d7d7;
+}
+.ptitle{
+    background: url(../images/prosidtitbg.jpg) left top repeat-x;
+    height: 35px;
+    position: relative;
+    border-bottom: 1px solid #ee4343;
+}
+.ph1{
+    margin-left: 10px;
+    width: 84px;
+    height: 36px;
+    padding: 0 12px;
+    line-height: 33px;  
+    left: 5px;
+    border: 1px solid #ee4343;
+    border-bottom: 1px solid white;
+    background: white;
+    font: bold 14px/33px "SimSun";
+    color: #d60003;
+}
+.loadlist{
+    width: 248px;
+    height: 210px;
+    padding: 15px 20px;
+}
+.loadlist li{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
+.loadlist li a{
+    display: block;
+    float: left;
+    width: 103px;
+    color: #000;
+    height: 30px;
+}
+.loadlist li a:hover{
+    color: red;
+}
+.prolistX{
+    margin-top: 20px;
+    width: 250px;
+    height: 376px;
+    border: 1px solid #d7d7d7;
+}
+.ph{
+    margin-left: 10px;
+    width: 155px;
+    height: 36px;
+    padding: 0 12px;
+    line-height: 33px;  
+    left: 5px;
+    border: 1px solid #ee4343;
+    border-bottom: 1px solid white;
+    background: white;
+    font: bold 14px/33px "SimSun";
+    color: #d60003;
+}
+.qingk{
+    display: block;
+    width: 60px;
+    height: 36px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-left: 10px;
+    line-height: 36px;
+}
+.history{
+    width: 248px;
+    height: 340px;
+    padding: 0px 10px 10px 10px;
+    margin-top: 5px;
+}
+.history li{
+    width: 228px;
+    height: 56px;
+    padding: 10px 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.history li span{
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+}
+.liang:hover{
+    color: red;
+}
+.show-right{
+    width: 935px;
+}
+.goodsdesc{
+    width: 935px;
+    height: 495px;
+}
+.gleft{
+    width: 350px;
+}
+.proname{
+    font-size: 18px;
+    color: #0b7bd6;
+    text-align: center;
+    font-weight: bold;
+    line-height: 39px;
+}
+/* 放大镜 */
+.preview{
+    margin: 0 auto;
+    text-align: center;
+    width: 310px;
+    height: 330px;
+    position: relative;
+}
+.jqzoom{
+    margin-top: 10px;
+    height: 309px;
+    width: 309px;
+    border: #d7d7d7 1px solid;
+    position: relative;
+}
+.jqzoom img{
+    width: 306px;
+    height: 306px;
+}
+.telipin{
+    width: 58px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    z-index: 10;
+    background: url(../images/teli-ico.png)no-repeat center center;
+}
+.move{
+    background: rgb(208, 205, 103);
+    opacity: 0.4;
+    width:150px;
+    height:150px;
+    position:absolute;
+    border: 1px solid rgb(206, 160, 160);
+    left:0px;
+    top:0px;
+    display:none;
+    cursor: move;
+}
+.bing{
+    position: absolute;
+    top: 0px;
+    left: 310px;
+    width: 430px;
+    height: 430px;
+    overflow: hidden;
+    display: none;
+}
+.bing img{
+    width: 800px;
+    height: 800px;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+/* 小图 */
+.items{
+    margin-left: 10px;
+    width: 330px;
+    height: 56px;
+    overflow: hidden;
+}
+.items a{
+    display: block;
+    font-family: "宋体";
+    text-align: center;
+    width: 15px;
+    height: 54px;
+    line-height: 54px;
+    border: 1px solid #d7d7d7;
+    background: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.mini{
+    margin-left: 20px;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+}
+.mini img{
+    border: 1px solid #d7d7d7;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+}
+/* 商品信息 */
+.gright{
+    width: 560px;
+}
+.pro-info{
+    margin-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: arial;
+    font-size: 16px;
+    border-bottom: 1px solid #e4e4e4;
+    color: #c90800;
+}
+.detail li{
+    color: #333;
+    line-height: 30px;
+}
+.fix{
+    height: 33px;
+    line-height: 33px;
+}
+.price{
+    font-size: 12px;
+    border-top: 1px solid #d7d7d7;
+    margin-top: 8px;
+    height: 100px;
+}
+.price p{
+    margin: 8px 0;
+    color: #666666;
+}
+.kaxprice{
+    float: left;
+    margin-right: 70px;
+    color: #666666;
+}
+.kaxprice em{
+    font-size: 25px;
+    color: #e4393c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.lisheng{
+    float: left;
+    color: #666666;
+}
+.lisheng em{
+    font-size: 25px;
+    color: #e4393c;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.market{
+    margin: 8px 0;
+    color: #666666;
+}
+.market span{
+    margin-right: 10px;
+}
+.market del{
+
+}
+.yhzx{
+    width: 560px;
+    height: 95px;
+    padding-top: 20px;
+    border-top: 1px solid #d7d7d7;
+}
+.youh{
+    width: 100px;
+    height: 65px;
+}
+.yhzx p{
+    border: 1px solid #ccc;
+    padding: 0px 3px;
+    display: inline-block;
+    margin-bottom: 7px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    width: 350px;
+}
+.yhzx p:hover{
+    color: orange;
+    border: 1px solid red;
+}
+.dact{
+    width: 560px;
+    border-top: 1px solid #d7d7d7;
+    padding-top: 20px;
+    overflow: hidden;
+}
+.upcf img{
+    cursor: pointer;
+}
+.upcf span{
+    width: 133px;
+    height: 46px;
+    float: left;
+    background: url(../images/callbtn.png) -106px 0 no-repeat;
+    cursor: pointer;
+}
+.callback{
+    width: 380px;
+    margin-right: 10px;
+}
+.callback span{
+    display: block;
+    float: left;
+    height: 46px;
+    width: 274px;
+    background: url(../images/callbg.png) 0 0 no-repeat;
+}
+.callback input{
+    width: 217px;
+    height: 36px;
+    line-height: 30px;
+    padding-top: 6x;
+    color: #a9a9a9;
+    border: 0 none;
+    background: none;
+    margin: 5px 0 0 40px;
+    padding-left: 5px;
+}
+
+.callback em{
+    display: block;
+    float: left;
+    height: 46px;
+    width: 106px;
+    background: url(../images/callbtn.png) 0 0 no-repeat;
+    cursor: pointer;
+}
+.propoint{
+    width: 560px;
+    height: 97px;
+    border: 1px solid #d7d7d7;
+    background: #f8f8f8;
+    font: normal 12px/22px "SimSun","Microsoft YaHei";
+    color: #5c5c5c;
+    overflow: hidden;
+    zoom: 1;
+    padding: 15px;
+    margin-top: 35px;
+    text-indent: 2em;
+}
+.propoint em{
+    font-weight: bold;
+    color: #fa0004;
+}
+.zk{
+    width: 935px;
+    margin-left: 260px;
+    overflow: hidden;
+}
+.specification{
+    width: 935px;
+    background: url(../images/prosidtitbg.jpg) left top repeat-x;
+    height: 35px;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ee4343;
+    margin-top: 18px;
+}
+.cons{
+    width: 935px;
+    overflow: hidden;
+}
+.con{
+    width: 935px;
+    overflow: hidden;
+}
+.con img{
+    width: 935px;
+}
+.con:nth-child(1){
+    display: block;
+}
+.con:nth-child(2){
+    display: none;
+}
+.con:nth-child(3){
+    display: none;
+    cursor: pointer;
+}
+.con:nth-child(4){
+    display: none;
+    text-align: center;
+    height: 100px;
+    padding-top: 50px;
+}
+.specification li{
+    margin-left: 22px;
+    height: 32px;
+    line-height: 33px;
+    vertical-align: middle;
+    text-align: center;
+    width: 84px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+    display: block;
+}
+.specification li:hover{
+    background: #fff;
+    height: 34px;
+    border: 1px solid red;
+    border-bottom: none;
+    color: red;
+}

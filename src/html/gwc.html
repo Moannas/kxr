@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/kxrcommon.js"></script>
+    <script src="../js/gwc.js"></script>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/kxrcommon.css">
+    <link rel="stylesheet" href="../css/gwc.css">
+    <title>购物车</title>
+</head>
+<body>
+    <div class="gw-top">
+        <div class="gw-top-cont">
+            <span id="Span1" class="topright">
+                <a><img src="../images/mail.gif"></a>(<a>
+                    <span id="mesCount">0</span></a>)<a>我的账户</a>
+                | <a>收藏本站</a> | <a>代购预定</a>
+    
+                | <a>帮助中心</a> |
+                <img class="kefuIco" src="../images/gw-online.jpg"></span>
+            <span id="logoName" class="topleft">您好，欢迎来到开心人，<a id="users">sinaT1876012927</a>&nbsp;
+                <a href="../index.html">[退出]</a></span>
+        </div>
+    </div>
+
+    <div class="gw-logo-box">
+        <div class="gw-logo-cont">
+            <p>
+                <span class="step1-bg active">1我的购物车</span><span class="step2-bg">2填写订单核对信息</span><span class="step3-bg">
+                    3成功提交订单</span></p>
+            <a><img src="../images/gw-logo.jpg"></a>
+        </div>
+    </div>
+    <div class="gw-main-box">
+        <h1>我的购物车</h1>
+        <div class="message-common oreder-message ">
+            <div class="round-top-img">
+            </div>
+            <div class="message-common-cont listing-message-cont oreder-message-cont">
+                <h3>购物清单：</h3>
+                <div id="concar">
+                    <table cellspacing="0" cellpadding="0" border="0" class="listing-tb">
+                        <tbody>
+                            <tr class="list-title">
+                                <th class="first-th">商品编号</th>
+                                <th>商品名称</th>
+                                <th width="90">开心价</th>
+                                <th width="90">数量</th>
+                                <th width="90">小计</th>
+                                <th width="90">操作</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table cellspacing="0" cellpadding="0" border="0" class="listing-tb listing-td">
+                        <tbody class="tbo">
+                            <tr class="tr">
+                                <td class="first-th">B01011127x</td>
+                                <td><a>福牌 阿胶精致铁盒装 250g</a><span class="redColor">(特例品)</span></td>
+                                <td class="priceSign" width="90">￥00.00</td>
+                                <td width="90"><span class="minus-ico"></span>
+                                    <input type="text" value="1" id="num_28846"><span
+                                        class="plus-ico" ></span></td>
+                                <td class="priceSign" width="90">￥00.00</td>
+                                <td width="90"><a class="del-cancle">删除</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="msgshow" class="msgshow" style="display: none;">
+                </div>
+                <div class="order-text">
+    
+                    <div class="order-sum-new">
+                        <p>
+                            <span style="color: #6E6E6E; float: left;">商品总重量：
+                                <span id="showproweight" class="newnum-red">0g</span>
+                            </span>
+                            <span class="newpronum">
+                                <span class="num-red" id="productcount">0</span>件商品</span>
+                            商品金额总计：<span class="newnum-red"><i id="showptsp">￥00.00</i>
+                            </span>
+                        </p>
+                        <p>满减：<span class="newnum-red" id="mjGiftFee">-￥0.00</span></p>
+                        <p class="fl" id="allchecked"><input type="checkbox" name="" id="" value="" />全选</p>
+                        <p class="fr">总计（不含运费）：<span class="newnum-red" id="showprototal">￥00.00</span></p>
+                    </div>
+    
+                    <div class="clear">
+                    </div>
+                </div>
+                <div class="order-button">
+                    <span class="clearshopcar"><b></b><p class="qingk fl">清空购物车</p></span> <span class="clearshopcar"><a class="coudan">凑单享免邮！</a></span>
+                    <a href="../html/liebiaoye.html"><input type="button"  class="continue-btn fl"></a> 
+                    <input type="button" class="submit-btn fl">
+                    <div class="clear">
+                    </div>
+                </div>
+            </div>
+            <div class="round-bottom-img">
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
